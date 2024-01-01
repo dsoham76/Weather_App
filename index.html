@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Enter the city name"
+          spellcheck="false"
+        />
+        <button>
+          <img src="./images/search.png" alt="search" />
+        </button>
+      </div>
+
+      <div class="weather">
+        <div class="container">
+          <div class="container-col">
+            <img class="cal-icon" src="./images/calendar.png" alt="today" />
+            <div class="day"></div>
+            <div class="date"></div>
+            <div class="time"></div>
+          </div>
+          <div class="container-col">
+            <img class="icon" src="./images/drizzle.png" alt="weather" />
+            <div class="desc"></div>
+            <div class="temp"></div>
+            <div class="city"></div>
+          </div>
+        </div>
+
+        <div class="details">
+          <div class="col">
+            <img src="./images/min_temp.png" alt="" />
+            <div>
+              <p class="min-temp"></p>
+              <p>Min. Temperature</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/max_temp.png" alt="" />
+            <div>
+              <p class="max-temp"></p>
+              <p>Max. Temperature</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="./images/latitude.png" alt="" />
+            <div>
+              <p class="lat"></p>
+              <p>Latitude</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/latitude.png" alt="" />
+            <div>
+              <p class="long"></p>
+              <p>Longitude</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/sunrise.png" alt="" />
+            <div>
+              <p class="sunrise"></p>
+              <p>Sunrise</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/sunset.png" alt="" />
+            <div>
+              <p class="sunset"></p>
+              <p>Sunset</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="./images/humidity.png" alt="" />
+            <div>
+              <p class="humidity"></p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="./images/wind.png" alt="" />
+            <div>
+              <p class="wind"></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lastUpdation"></div>
+    </div>
+
+    <script src="functions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
