@@ -276,11 +276,11 @@ function setDay(day) {
   var dayNames = [
     "Sunday",
     "Monday",
-    "Tueday",
-    "Wedday",
-    "Thurday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
     "Friday",
-    "Satday",
+    "Saturday",
   ];
   return dayNames[day];
 }
