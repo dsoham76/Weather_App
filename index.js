@@ -7,7 +7,7 @@ const weatherIcon = document.querySelector(".icon");
 
 function updateClock() {
   var now = new Date();
-  var day = now.getDate();
+  var day = now.getDay();
   var hours = now.getHours();
   var minutes = now.getMinutes();
   var seconds = now.getSeconds();
